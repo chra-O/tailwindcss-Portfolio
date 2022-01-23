@@ -1,17 +1,53 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <>
-      <div className="  text-center inline ">
-        {" "}
-        <p className="h-16 pt-4 bg-pink-50">
+      <div className="  grid inline grid-cols-4  bg-rose-50">
+        <p className=" pt-4  text-center  ">
           {" "}
-          <a href="/about " className="p-7  underline underline-offset-4 text-sm hover:text-base">
-            About {" "}
+          <Link
+            to="/"
+            className="p-4 underline underline-offset-4 text-sm hover:text-base bm: "
+          >
+            Home
+          </Link>{" "}
+          <Link
+            to="/About"
+            className="p-4 underline underline-offset-4 text-sm hover:text-base bm: "
+          >
+            About
+          </Link>{" "}
+          <Link
+            to="/Cetification"
+            className="p-4 underline underline-offset-4 text-sm hover:text-base bm:text-xs"
+          >
+            Cetification
+          </Link>{" "}
+          <Link
+            to="/Contact"
+            className="p-4 underline underline-offset-4 text-sm hover:text-base bm:text-xs"
+          >
+            Contact
+          </Link>{" "}
+        </p>
+        <p></p>
+        <p></p>
+        <p className="h-16 pt-4   text-center  ">
+          <img
+            className="inline bm:text-xs w-12 pr-4  "
+            alt=""
+            //https://cdn-icons-png.flaticon.com/512/3524/3524737.png
+            src="https://cdn-icons-png.flaticon.com/512/3524/3524755.png"
+          ></img>
+          <a href="https://github.com/chra-O">
+            <img
+              className="inline bm:text-xs w-8 sm:w-10 pr-2"
+              alt=""
+              //https://cdn-icons-png.flaticon.com/512/2111/2111612.png
+              src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png"
+            ></img>
           </a>
-          <a href="/about" className="p-7 underline underline-offset-4 text-sm hover:text-base"> Certification </a>
-          <a href="/about" className="p-7 underline underline-offset-4 text-sm hover:text-base"> Contact </a>
         </p>
       </div>
     </>
