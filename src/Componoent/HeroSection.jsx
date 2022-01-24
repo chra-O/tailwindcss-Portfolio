@@ -17,10 +17,15 @@ export default function HeroSection() {
               <h1 className=" sm:text-7xl text-4xl sm:mt-44 mt-10 font-thin">
                 Chra Othman
               </h1>
-              <p className="mt-8 sm:text-2xl text-lg mr-12 sm:ml-8 ml-5 font-thin ">
-                My name is Chra Othman Iam 22 years old , I graduates in
+              <p className="mt-8 sm:text-2xl text-lg mr-12 sm:ml-8 ml-5 font-thin  ">
+                My name is Chra Othman Iam 22 years old , I graduated in
                 Computer Science in Sulaymaniyah University.
               </p>
+
+              <button className="bg-red-400 hover:bg-red-500  ease-in duration-300 p-3 rounded-full mt-10 ml-8 px-4">
+                {" "}
+                Hire Me{" "}
+              </button>
             </div>
           </div>
         </div>

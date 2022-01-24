@@ -8,25 +8,25 @@ export default function NavBar() {
           {" "}
           <Link
             to="/"
-            className="p-4 underline underline-offset-4 text-sm hover:text-base bm: "
+            className="p-4 underline underline-offset-4 text-sm hover:text-base  ease-in duration-200 "
           >
             Home
           </Link>{" "}
           <Link
             to="/About"
-            className="p-4 underline underline-offset-4 text-sm hover:text-base bm: "
+            className="p-4 underline underline-offset-4 text-sm hover:text-base ease-in duration-200  "
           >
             About
           </Link>{" "}
           <Link
             to="/Cetification"
-            className="p-4 underline underline-offset-4 text-sm hover:text-base bm:text-xs"
+            className="p-4 underline underline-offset-4 text-sm hover:text-base ease-in duration-200 "
           >
             Cetification
           </Link>{" "}
           <Link
             to="/Contact"
-            className="p-4 underline underline-offset-4 text-sm hover:text-base bm:text-xs"
+            className="p-4 underline underline-offset-4 text-sm hover:text-base ease-in duration-200 "
           >
             Contact
           </Link>{" "}
@@ -42,7 +42,7 @@ export default function NavBar() {
           ></img>
           <a href="https://github.com/chra-O">
             <img
-              className="inline bm:text-xs w-8 sm:w-10 pr-2"
+              className="inline bm:text-xs w-8 sm:w-10 pr-2 "
               alt=""
               //https://cdn-icons-png.flaticon.com/512/2111/2111612.png
               src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png"
