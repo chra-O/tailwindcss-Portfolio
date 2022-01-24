@@ -21,7 +21,7 @@ export default function HeroSection() {
                 My name is Chra Othman Iam 22 years old , I graduated in
                 Computer Science in Sulaymaniyah University.
               </p>
-
+             
               <button className="bg-red-400 hover:bg-red-500  ease-in duration-300 p-3 rounded-full mt-10 ml-8 px-4">
                 {" "}
                 Hire Me{" "}
