@@ -9,9 +9,10 @@ export default function Home() {
     <div>
       <NavBar />
       <HeroSection />
-      <div className="ml-20 ">
+      <div className="ml-20 mt-20 ">
         <AboutComponent />
       </div>
+
       <ShowCertification />
     </div>
   );
