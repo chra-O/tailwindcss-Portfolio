@@ -1,10 +1,16 @@
 import React from "react";
 
+import NavBar from "../Componoent/NavBar";
+import ShowCertification from "../Componoent/ShowCertification";
+
 export default function Certification() {
   return (
-    <div className="w-screen h-screen bg-rose-50">
-      {" "}
-      <p>certification </p>
-    </div>
+    <>
+      <NavBar />
+      <div>
+        {" "}
+        <ShowCertification />
+      </div>
+    </>
   );
 }
