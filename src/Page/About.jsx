@@ -36,44 +36,64 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className=" sm:ml-32  mr-20 mt-14">
+        <div className=" sm:ml-32  sm:mr-20 mr-0 mt-14">
           {" "}
           <div className=" mt-28 ml-10 w-96">
             <div>
-              <p className=" text-lg mb-2 ml-4 ">Language : </p>
+              <p className=" text-lg mb-2 ml-4 ">Web Language : </p>
               <div className="w-auto bg-stone-100  rounded-full mb-2">
-                <div className="w-64 bg-blue-200  rounded-full">
-                  <p className="pl-3">English</p>
+                <div className="w-80 bg-blue-200  rounded-full">
+                  <p className="pl-3">HTML</p>
                 </div>
               </div>
               <div className="w-auto bg-stone-100  rounded-full mb-2">
-                <div className="w-80  bg-orange-200 rounded-full">
-                  <p className="pl-3">Kurdish</p>
+                <div className="w-72 bg-orange-200 rounded-full">
+                  <p className="pl-3">CSS</p>
                 </div>
               </div>{" "}
               <div className="w-auto bg-stone-100  rounded-full mb-2">
-                <div className="w-72  bg-green-200 rounded-full">
-                  <p className="pl-3">Arabic</p>
+                <div className="w-56  bg-green-200 rounded-full">
+                  <p className="pl-3">JAVA SCRIPT</p>
+                </div>
+              </div>{" "}
+              <div className="w-auto bg-stone-100  rounded-full mb-2">
+                <div className="w-36  bg-red-200 rounded-full">
+                  <p className="pl-3">PHP</p>
                 </div>
               </div>{" "}
             </div>
           </div>
-          <div className=" mt-28 ml-10 w-96">
+          <div className=" mt-24 ml-10 w-96">
             <div>
-              <p className=" text-lg mb-2 ml-4 ">Language : </p>
+              <p className=" text-lg mb-2 ml-4 "> Library And Framework : </p>
               <div className="w-auto bg-stone-100  rounded-full mb-2">
-                <div className="w-64 bg-blue-200  rounded-full">
-                  <p className="pl-3">English</p>
+                <div className="w-72 bg-blue-200  rounded-full">
+                  <p className="pl-3">Bootstrap</p>
                 </div>
               </div>
               <div className="w-auto bg-stone-100  rounded-full mb-2">
-                <div className="w-80  bg-orange-200 rounded-full">
-                  <p className="pl-3">Kurdish</p>
+                <div className="w-60  bg-orange-200 rounded-full">
+                  <p className="pl-3">Bulma</p>
                 </div>
               </div>{" "}
               <div className="w-auto bg-stone-100  rounded-full mb-2">
-                <div className="w-72  bg-green-200 rounded-full">
-                  <p className="pl-3">Arabic</p>
+                <div className="w-80  bg-green-200 rounded-full">
+                  <p className="pl-3">React</p>
+                </div>
+              </div>{" "}
+              <div className="w-auto bg-stone-100  rounded-full mb-2">
+                <div className="w-72 bg-amber-200 rounded-full">
+                  <p className="pl-3">EXPRESS</p>
+                </div>
+              </div>{" "}
+              <div className="w-auto bg-stone-100  rounded-full mb-2">
+                <div className="w-64 bg-blue-100 rounded-full">
+                  <p className="pl-3">React Bootstrap</p>
+                </div>
+              </div>{" "}
+              <div className="w-auto bg-stone-100  rounded-full mb-2">
+                <div className="w-72 bg-violet-200 rounded-full">
+                  <p className="pl-3"> Tailwind CSS</p>
                 </div>
               </div>{" "}
             </div>
