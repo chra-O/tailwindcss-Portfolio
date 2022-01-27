@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/chra-O/tailwindcss-Portfolio/static/css/main.57beda60.css",
-    "main.js": "/chra-O/tailwindcss-Portfolio/static/js/main.1116323e.js",
-    "static/js/787.28cb0dcd.chunk.js": "/chra-O/tailwindcss-Portfolio/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/chra-O/tailwindcss-Portfolio/index.html",
-    "main.57beda60.css.map": "/chra-O/tailwindcss-Portfolio/static/css/main.57beda60.css.map",
-    "main.1116323e.js.map": "/chra-O/tailwindcss-Portfolio/static/js/main.1116323e.js.map",
-    "787.28cb0dcd.chunk.js.map": "/chra-O/tailwindcss-Portfolio/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.57beda60.css",
+    "main.js": "/static/js/main.a7f3ba38.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/index.html",
+    "main.57beda60.css.map": "/static/css/main.57beda60.css.map",
+    "main.a7f3ba38.js.map": "/static/js/main.a7f3ba38.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57beda60.css",
-    "static/js/main.1116323e.js"
+    "static/js/main.a7f3ba38.js"
   ]
 }
