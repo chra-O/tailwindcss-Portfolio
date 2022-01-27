@@ -4,7 +4,7 @@ export default function AboutComponent() {
   return (
     <div>
       <div className=" md:sm:grid grid-cols-2 ">
-        <div className="mt-20 sm:ml-32 ml-4   ">
+        <div className="mt-20 sm:ml-32   ">
           {" "}
           <h1 className="sm:text-6xl text-4xl font-thin mb-6 mt-20  ">
             About :
