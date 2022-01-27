@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <>
-      <div className="   sm:inline grid-cols-2 w-sc h-full sm:grid sm:grid-cols-4  bg-rose-50">
+      <div className="   sm:inline  w-sc h-full sm:grid sm:grid-cols-2  bg-rose-50 ">
         <p className=" pt-4  text-center  ">
           {" "}
           <Link
@@ -31,8 +31,7 @@ export default function NavBar() {
             Contact
           </Link>{" "}
         </p>
-        <p></p>
-        <p></p>
+        
         <p className="h-16 pt-4   text-center  ">
           <img
             className="inline bm:text-xs w-12 pr-4  "

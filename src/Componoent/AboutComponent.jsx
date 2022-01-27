@@ -3,10 +3,10 @@ import React from "react";
 export default function AboutComponent() {
   return (
     <div>
-      <div className=" md:sm:grid grid-cols-2 ">
-        <div className="mt-20 sm:ml-32   ">
+      <div className=" sm:grid grid-cols-2  ">
+        <div className="mt-20 sm:ml-32  md:ml-2  ">
           {" "}
-          <h1 className="sm:text-6xl text-4xl font-thin mb-6 mt-20  ">
+          <h1 className="sm:text-6xl text-4xl font-thin mb-6 mt-20 ">
             About :
           </h1>{" "}
           <p className="ml-4  text-lg">
@@ -14,7 +14,7 @@ export default function AboutComponent() {
             science with a good degree I went to Halkawt highSchool , I got 88
             in 12 , Iam in Sulaymany .{" "}
           </p>
-          <div className=" mt-28 ml-16 w-96">
+          <div className=" mt-28 ml-16 w-96  ">
             <div>
               <p className=" text-lg mb-2 ml-4 ">Language : </p>
               <div className="w-auto bg-stone-100  rounded-full mb-2">
@@ -35,7 +35,7 @@ export default function AboutComponent() {
             </div>
           </div>
         </div>
-        <div className=" sm:ml-32 ml-8 sm:mr-8  mt-14 border-red-100 border-double  border-r-8">
+        <div className=" sm:ml-32 ml-8 sm:mr-8  mt-14 border-red-100 border-double  border-r-8 md:ml-3 ">
           {" "}
           <div className=" mt-28 ml-10 w-96">
             <div>
