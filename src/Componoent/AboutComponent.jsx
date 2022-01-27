@@ -3,18 +3,18 @@ import React from "react";
 export default function AboutComponent() {
   return (
     <div>
-      <div className=" sm:grid grid-cols-2  ">
-        <div className="mt-20 sm:ml-32  md:ml-2  ">
+      <div className="grid-cols-1 sm:grid md:grid-cols-1 xl:grid-cols-2 lg:grid-cols-1 ">
+        <div className="mt-20 sm:ml-16 md:ml-56 ml-8">
           {" "}
           <h1 className="sm:text-6xl text-4xl font-thin mb-6 mt-20 ">
             About :
           </h1>{" "}
-          <p className="ml-4  text-lg">
+          <p className="ml-4  text-lg ">
             My name is Chra Othman Iam 22 years old , I graduated in computer
             science with a good degree I went to Halkawt highSchool , I got 88
             in 12 , Iam in Sulaymany .{" "}
           </p>
-          <div className=" mt-28 ml-16 w-96  ">
+          <div className="ml-0  sm:ml-8 mt-28  sm:w-96 w-72  ">
             <div>
               <p className=" text-lg mb-2 ml-4 ">Language : </p>
               <div className="w-auto bg-stone-100  rounded-full mb-2">
@@ -35,9 +35,9 @@ export default function AboutComponent() {
             </div>
           </div>
         </div>
-        <div className=" sm:ml-32 ml-8 sm:mr-8  mt-14 border-red-100 border-double  border-r-8 md:ml-3 ">
+        <div className=" ml-0 sm:ml-0 md:ml-0  sm:mr-8  mt-14 border-red-100 border-double  border-r-8  ">
           {" "}
-          <div className=" mt-28 ml-10 w-96">
+          <div className=" mt-28 ml-2 sm:ml-28 w-72 sm:w-96 ">
             <div>
               <p className=" text-lg mb-2 ml-4 ">Web Language : </p>
               <div className="w-auto bg-stone-100  rounded-full mb-2">
@@ -62,7 +62,7 @@ export default function AboutComponent() {
               </div>{" "}
             </div>
           </div>
-          <div className=" mt-24 ml-10 w-96">
+          <div className=" mt-24 ml-2 sm:ml-28 sm:w-96 w-72">
             <div>
               <p className=" text-lg mb-2 ml-4 "> Library And Framework : </p>
               <div className="w-auto bg-stone-100  rounded-full mb-2">

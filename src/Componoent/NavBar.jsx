@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <>
-      <div className="   sm:inline  w-sc h-full sm:grid sm:grid-cols-2  bg-rose-50 ">
+      <div className="   sm:inline   h-full sm:grid sm:grid-cols-2  bg-rose-50  ">
         <p className=" pt-4  text-center  ">
           {" "}
           <Link

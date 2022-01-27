@@ -14,15 +14,15 @@ export default function CertificationCard(props) {
               className=" w-full h-44 "
               alt=""
             ></img>{" "}
-            <div className="  flex flex-row mt-2 justify-evenly  mb-2   ">
+            <div className="  flex flex-row mt-2 justify-evenly  mb-2  ">
               {" "}
               <a
                 href={props.link}
-                className="opacity-50 caret-black hover:opacity-100 ease-in duration-200"
+                className="opacity-50 caret-black hover:opacity-100 transition duration-150 ease-in-out"
+                data-tooltip-target="tooltip-default"
               >
                 <img className="w-6" src={props.git} alt=""></img>
               </a>
-              
               <img
                 className=" w-6 h-6  opacity-50 caret-black hover:opacity-100 ease-in duration-200 "
                 src={props.html}

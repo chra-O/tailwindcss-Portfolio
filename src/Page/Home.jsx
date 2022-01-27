@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <NavBar />
       <HeroSection />
-      <div className="sm:ml-20 ml-8 mt-20 ">
+      <div className="sm:ml-0 md:ml-0 lg:ml-0  mt-20 ">
         <AboutComponent />
       </div>
 
