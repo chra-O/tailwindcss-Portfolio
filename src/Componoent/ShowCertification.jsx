@@ -61,6 +61,7 @@ export default function ShowCertification() {
         html="https://cdn-icons.flaticon.com/png/128/721/premium/721790.png?token=exp=1643198609~hmac=f8751c9ebe65296bbb0457d4c7548675"
         css=" https://cdn-icons-png.flaticon.com/512/732/732007.png"
         desc="Portpolio by Only html and css"
+        php="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGy4cVOz7hvzIvSvCNo26Zm7DZRnpn6iQMfw&usqp=CAU"
       />
     </div>
   );

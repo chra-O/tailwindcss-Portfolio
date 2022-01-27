@@ -22,7 +22,7 @@ export default function NavBar() {
             to="/Cetification"
             className="p-4 underline underline-offset-4 text-sm hover:text-base ease-in duration-200 "
           >
-            Cetification
+           Work
           </Link>{" "}
           <Link
             to="/Contact"
