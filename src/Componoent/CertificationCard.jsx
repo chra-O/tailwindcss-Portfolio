@@ -3,7 +3,7 @@ import React from "react";
 export default function CertificationCard(props) {
   return (
     <>
-      <div className="    inline-flex   m-16  h-64 ease-in duration-200   shadow-xl border-double shadow-neutral-200  overflow-x-hidden ">
+      <div className="     inline-flex   sm:m-16 m-4 h-64 ease-in duration-200   shadow-xl border-double shadow-neutral-200  overflow-x-hidden ">
         {" "}
         <div>
           {" "}
@@ -11,7 +11,7 @@ export default function CertificationCard(props) {
             <img
               //
               src={props.img}
-              className=" w-full h-44 "
+              className=" w-full h-44  "
               alt=""
             ></img>{" "}
             <div className="  flex flex-row mt-2 justify-evenly  mb-2  ">
