@@ -54,7 +54,7 @@ export default function NavBar() {
             ></img>
           </a>
           <a href="https://developers.google.com/profile/u/chra-Othman">
-           <p className="font-bold inline ml-2 ">GDG</p>
+           <p className="font-bold inline ml-2  ">GDG</p>
           </a>
         </div>
       </div>

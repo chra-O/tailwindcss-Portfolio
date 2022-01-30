@@ -8,12 +8,7 @@ export default function CertificationCard(props) {
         <div>
           {" "}
           <div className="   mb-2 ">
-            <img
-              //
-              src={props.img}
-              className=" w-full h-44  "
-              alt=""
-            ></img>{" "}
+            <img src={props.img} className=" w-full h-44  " alt=""></img>{" "}
             <div className="  flex flex-row mt-2 justify-evenly  mb-2  ">
               {" "}
               <a

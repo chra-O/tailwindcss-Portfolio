@@ -9,7 +9,7 @@ export default function ExperyanceCard(props) {
           {" "}
           <div className="   mb-2  ">
             <img src={props.img} className=" w-full h-44  " alt=""></img>{" "}
-            <p className="hover:text-lg mt-5  ml-6 "> {props.desc}</p>
+            <p className=" mt-5  ml-6 "> {props.desc}</p>
           </div>{" "}
         </div>
       </div>
