@@ -22,7 +22,7 @@ export default function NavBar() {
             to="/Cetification"
             className="p-2 underline underline-offset-4 text-sm hover:text-base ease-in duration-200 "
           >
-           Work
+            Work
           </Link>{" "}
           <Link
             to="/Contact"
@@ -34,26 +34,29 @@ export default function NavBar() {
             to="/Certification"
             className="p-2 underline underline-offset-4 text-sm hover:text-base ease-in duration-200 "
           >
-           Certification
+            Certification
           </Link>{" "}
         </p>
-        
-        <p className="h-16 pt-4   text-center  ">
-          <img
-            className="inline bm:text-xs w-12 pr-4  "
-            alt=""
-            //https://cdn-icons-png.flaticon.com/512/3524/3524737.png
-            src="https://cdn-icons-png.flaticon.com/512/3524/3524755.png"
-          ></img>
+{/*  */}
+        <div className="h-16 pt-4   text-center  ">
           <a href="https://github.com/chra-O">
             <img
-              className="inline bm:text-xs w-8 sm:w-10 pr-2 "
+              className="inline w-8 sm:w-8 pr-2  ml-2"
               alt=""
-              //https://cdn-icons-png.flaticon.com/512/2111/2111612.png
               src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png"
             ></img>
           </a>
-        </p>
+          <a href="https://codepen.io/chra-A/pens/popular">
+            <img
+              className="inline  w-8 sm:w-8 pr-2 ml-2 "
+              alt=""
+              src="  https://cdn-icons-png.flaticon.com/128/2111/2111341.png"
+            ></img>
+          </a>
+          <a href="https://developers.google.com/profile/u/chra-Othman">
+           <p className="font-bold inline ml-2 ">GDG</p>
+          </a>
+        </div>
       </div>
     </>
   );

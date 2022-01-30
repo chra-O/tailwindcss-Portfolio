@@ -21,6 +21,18 @@ export default function ShowEx() {
           img="http://localhost:3000/Image/saleshop.PNG"
           desc="sale shop with bootstrap and php"
         />
+          <ExperyanceCard
+          img="http://localhost:3000/Image/saleshop.PNG"
+          desc="sale shop with bootstrap and php"
+        />
+         <ExperyanceCard
+          img="http://localhost:3000/Image/saleshop.PNG"
+          desc="sale shop with bootstrap and php"
+        />
+         <ExperyanceCard
+          img="http://localhost:3000/Image/saleshop.PNG"
+          desc="sale shop with bootstrap and php"
+        />
       </div>
     </>
   );
