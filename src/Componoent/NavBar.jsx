@@ -8,27 +8,33 @@ export default function NavBar() {
           {" "}
           <Link
             to="/"
-            className="p-4 underline underline-offset-4 text-sm hover:text-base  ease-in duration-200 "
+            className="p-2 underline underline-offset-4 text-sm hover:text-base  ease-in duration-200 "
           >
             Home
           </Link>{" "}
           <Link
             to="/About"
-            className="p-4 underline underline-offset-4 text-sm hover:text-base ease-in duration-200  "
+            className="p-2 underline underline-offset-4 text-sm hover:text-base ease-in duration-200  "
           >
             About
           </Link>{" "}
           <Link
             to="/Cetification"
-            className="p-4 underline underline-offset-4 text-sm hover:text-base ease-in duration-200 "
+            className="p-2 underline underline-offset-4 text-sm hover:text-base ease-in duration-200 "
           >
            Work
           </Link>{" "}
           <Link
             to="/Contact"
-            className="p-4 underline underline-offset-4 text-sm hover:text-base ease-in duration-200 "
+            className="p-2 underline underline-offset-4 text-sm hover:text-base ease-in duration-200 "
           >
             Contact
+          </Link>{" "}
+          <Link
+            to="/Certification"
+            className="p-2 underline underline-offset-4 text-sm hover:text-base ease-in duration-200 "
+          >
+           Certification
           </Link>{" "}
         </p>
         

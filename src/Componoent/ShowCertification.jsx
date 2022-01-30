@@ -3,10 +3,10 @@ import CertificationCard from "./CertificationCard";
 
 export default function ShowCertification() {
   return (
-    <div className=" border-red-100 border-double  border-r-8 mr-0 sm:mr-8 sm:ml-28 ml-0">
+    <div className=" border-red-100 border-double  border-r-8 mr-0 sm:mr-8 sm:ml-28 ml-0 ">
       {" "}
       <div className="mt-24 sm:ml-28 ml-8">
-        <p className="sm:text-6xl text-4xl font-thin mb-7 ">Works :</p>
+        <p className="sm:text-6xl text-4xl font-thin  pt-10 ">Works :</p>
       </div>
    
       <CertificationCard
