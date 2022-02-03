@@ -31,7 +31,7 @@ export default function NavBar() {
             Contact
           </Link>{" "}
           <Link
-            to="/Certification"
+            to="/Work"
             className="p-2 underline underline-offset-4 text-sm hover:text-base ease-in duration-200 "
           >
             Certification

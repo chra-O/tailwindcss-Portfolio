@@ -1,14 +1,15 @@
 import React from "react";
 import NavBar from "../Componoent/NavBar";
-import ShowCertification from "../Componoent/ShowEx";
+import ShowEx from "../Componoent/ShowEx";
+
 export default function Work() {
   return (
     <>
       {" "}
       <NavBar />
-      <div>
+      <div className="sm:ml-10 ml-0">
         {" "}
-        <ShowCertification />
+        <ShowEx />
       </div>
     </>
   );

@@ -8,7 +8,7 @@ export default function HeroSection() {
           <div className=" sm:mt-24 sm:ml-0   mr-10  ml-4  ">
             <img
               className="sm:ml-28 mt-20 border-l-8 border-b-8 border-red-100 border-double "
-              src="https://cdn-icons.flaticon.com/png/512/2507/premium/2507657.png?token=exp=1643022106~hmac=f8e73d61148462636d58cec6ad48a9bc"
+              src="http://localhost:3000/Image/woman.png"
               alt=""
             ></img>
           </div>

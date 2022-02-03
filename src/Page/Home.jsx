@@ -16,7 +16,10 @@ export default function Home() {
       <div className="bg-slate-50 ">
         <ShowCertification />
       </div>
-      <ShowEx />
+      <div className=" sm:ml-10 ml-0 ">
+        {" "}
+        <ShowEx />
+      </div>
     </>
   );
 }
