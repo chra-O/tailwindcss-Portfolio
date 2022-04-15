@@ -7,7 +7,7 @@ export default function Work() {
     <>
       {" "}
       <NavBar />
-      <div className="sm:ml-10 ml-0">
+      <div className="sm:ml-10 ml-0 mb-20" >
         {" "}
         <ShowEx />
       </div>

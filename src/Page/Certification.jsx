@@ -7,7 +7,7 @@ export default function Certification() {
   return (
     <>
       <NavBar />
-      <div >
+      <div className="" >
         {" "}
         <ShowCertification/>
       </div>
