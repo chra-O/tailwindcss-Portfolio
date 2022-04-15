@@ -53,9 +53,17 @@ export default function NavBar() {
               src="  https://cdn-icons-png.flaticon.com/128/2111/2111341.png"
             ></img>
           </a>
+          <a href="https://www.linkedin.com/in/chra-osman-8419871b3/">
+            <img
+              className="inline  w-8 sm:w-8 pr-2 ml-2 "
+              alt=""
+              src=" https://cdn-icons.flaticon.com/png/512/3536/premium/3536569.png?token=exp=1650065268~hmac=b02da73d7d8bc9d4ef7a94d4b32f6e32"
+            ></img>
+          </a>
           <a href="https://developers.google.com/profile/u/chra-Othman">
            <p className="font-bold inline ml-2  ">GDG</p>
           </a>
+
         </div>
       </div>
     </>
