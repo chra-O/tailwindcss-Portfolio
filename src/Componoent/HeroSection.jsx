@@ -8,7 +8,7 @@ export default function HeroSection() {
           <div className=" sm:mt-24 sm:ml-0   mr-10  ml-4  ">
             <img
               className="sm:ml-28 mt-20 border-l-8 border-b-8 border-red-100 border-double "
-              src="http://localhost:3000/Image/woman.png"
+              src="Image/woman.png"
               alt=""
             ></img>
           </div>
